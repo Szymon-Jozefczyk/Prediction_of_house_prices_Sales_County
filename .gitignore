@@ -1,6 +1,6 @@
 cat > .gitignore << 'EOF'
 # Dane
-data/*.csv
+
 data/*.zip
 
 # Jupyter
