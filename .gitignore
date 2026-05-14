@@ -1,0 +1,17 @@
+cat > .gitignore << 'EOF'
+# Dane
+data/*.csv
+data/*.zip
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# System
+.DS_Store
+Thumbs.db
+EOF
